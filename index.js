@@ -143,16 +143,14 @@ $(".actionButtons  #Prev").click(function() {
  $("#quoteBox q").html(quoteObject.quote);
  $("#quoteBox cite").html(quoteObject.author);
  $(this).fadeIn(500);
- console.log("I've been clicked!");
     });
   });
 
- $(".actionButtons  #Next").click(function() {
+ $(".actionButtons >  #Next").click(function() {
  $("#quoteBox q, #quoteBox cite").fadeOut(500, function() {
  var quoteObject = quotesCursor.nextQuote();
  $("#quoteBox q").html(quoteObject.quote);
  $("#quoteBox cite").html(quoteObject.author);
  $(this).fadeIn(500);
- console.log("I've been clicked!");
     });
   });
