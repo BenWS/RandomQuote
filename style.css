@@ -1,0 +1,73 @@
+/*colors*/
+:root {
+  --primary:  #ee6d66;
+  --accent:#555;
+  --neutral_light:#fff;
+  --neutral_dark: #555;
+}
+
+/*end colors*/
+.quoteButtons * {
+  margin-left: .25rem;
+  margin-right:.25rem;
+}
+
+html, body {
+  height:100%;
+}
+
+.container {
+  height:100%;
+  padding-top:15%;
+  padding-bottom:20%
+}
+
+footer {
+  padding-top:5%;
+}
+
+#quoteBox > * {
+  padding-top:10px;
+  padding-bottom:10px
+}
+
+#quoteBox #quote {
+  height:100px;
+}
+
+#quoteBox #author {
+  height:25px;
+}
+#quoteBox #quote {
+  position:relative;
+}
+
+#quoteBox #quote q {
+  position:absolute;
+  top: 60%;
+  transform: translateY(-40%);
+}
+
+.actionButtons {
+  margin-top:10px;
+}
+
+body {
+  background-color:var(--primary);
+}
+
+#quoteBox {
+  background-color:var(--neutral_light);
+  border-radius:2%;
+  color: var(--neutral_dark);
+}
+
+button {
+  background-color:var(--accent);
+  color:var(--neutral_light);
+  border-color:var(--accent);
+}
+
+footer {
+  color:var(--neutral_light);
+}
