@@ -1,0 +1,30 @@
+{
+  "name": "quotesite",
+  "version": "1.0.0",
+  "description": "Quote Generator with quote tweet utility",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "multer": "^1.3.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenWS/RandomQuote.git"
+  },
+  "keywords": [
+    "quote",
+    "generator"
+  ],
+  "author": "Ben Shippey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenWS/RandomQuote/issues"
+  },
+  "homepage": "https://github.com/BenWS/RandomQuote#readme"
+}
