@@ -26,6 +26,10 @@ footer {
   padding-top:5%;
 }
 
+.container {
+  padding-top:100px;
+}
+
 #quoteBox > * {
   padding-top:10px;
   padding-bottom:10px;
