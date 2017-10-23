@@ -32,10 +32,13 @@ footer {
 }
 
 #quoteBox #quote {
-  font-size:18px;
-  height:120px;
+  height:140px;
+  font-size:18px
 }
 
+#quoteBox #author {
+  height:25px;
+}
 #quoteBox #quote {
   position:relative;
 }
