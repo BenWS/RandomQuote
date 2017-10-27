@@ -15,8 +15,7 @@
 
 html, body {
   height:100%;
-  font-family:Arial;
-  font-size:16px
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -38,13 +37,13 @@ footer {
   padding-bottom:10px;
 }
 
-#quoteBox #quote {
+#quoteBox > #quote {
   height:140px;
-  font-size:18px
+  font-size:20px
 }
 
-#quoteBox #author {
-  height:25px;
+#quoteBox > #author {
+  font-size: 15px;
 }
 #quoteBox #quote {
   position:relative;
