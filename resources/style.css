@@ -49,6 +49,10 @@ footer {
   position:relative;
 }
 
+#quoteBox {
+  padding-top:50px;
+}
+
 #quoteBox #quote q {
   position:absolute;
   top: 55%;
